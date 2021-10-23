@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Northwind.Application.Common.Models;
 using System.Linq;
+using Northwind.Utils;
 
 namespace Northwind.Infrastructure.Identity
 {

@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using Northwind.Application.Common.Models;
+using Northwind.Utils;
 
 namespace Infrastructure.Interfaces
 {
