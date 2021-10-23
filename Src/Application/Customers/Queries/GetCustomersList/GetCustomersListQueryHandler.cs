@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
 
-namespace Northwind.Application.Customers.Queries.GetCustomersList
+namespace Northwind.UseCases.Customers.Queries.GetCustomersList
 {
     public class GetCustomersListQueryHandler : IRequestHandler<GetCustomersListQuery, CustomersListVm>
     {

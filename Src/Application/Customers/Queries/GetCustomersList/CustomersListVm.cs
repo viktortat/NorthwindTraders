@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Northwind.Application.Customers.Queries.GetCustomersList
+namespace Northwind.UseCases.Customers.Queries.GetCustomersList
 {
     public class CustomersListVm
     {

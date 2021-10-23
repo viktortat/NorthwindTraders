@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Northwind.Application.Products.Queries.GetProductsList
+namespace Northwind.UseCases.Products.Queries.GetProductsList
 {
     public class GetProductsListQuery : IRequest<ProductsListVm>
     {

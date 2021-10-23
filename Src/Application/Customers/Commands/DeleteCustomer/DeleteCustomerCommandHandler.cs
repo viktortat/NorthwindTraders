@@ -1,12 +1,12 @@
 ﻿using MediatR;
-using Northwind.Application.Common.Exceptions;
 using Northwind.Domain.Entities;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
+using Northwind.UseCases.Common.Exceptions;
 
-namespace Northwind.Application.Customers.Commands.DeleteCustomer
+namespace Northwind.UseCases.Customers.Commands.DeleteCustomer
 {
     public class DeleteCustomerCommandHandler : IRequestHandler<DeleteCustomerCommand>
     {

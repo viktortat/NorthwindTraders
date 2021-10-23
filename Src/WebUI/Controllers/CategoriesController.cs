@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Northwind.Application.Categories.Commands.DeleteCategory;
-using Northwind.Application.Categories.Commands.UpsertCategory;
-using Northwind.Application.Categories.Queries.GetCategoriesList;
+using Northwind.UseCases.Categories.Commands.DeleteCategory;
+using Northwind.UseCases.Categories.Commands.UpsertCategory;
+using Northwind.UseCases.Categories.Queries.GetCategoriesList;
 using System.Threading.Tasks;
 
 namespace Northwind.WebUI.Controllers

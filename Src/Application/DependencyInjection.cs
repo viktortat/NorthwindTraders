@@ -2,9 +2,9 @@
 using AutoMapper;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using Northwind.Application.Common.Behaviours;
+using Northwind.UseCases.Common.Behaviours;
 
-namespace Northwind.Application
+namespace Northwind.UseCases
 {
     public static class DependencyInjection
     {

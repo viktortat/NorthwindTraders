@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
 using MediatR;
-using Northwind.Application.Common.Exceptions;
 using Northwind.Domain.Entities;
 using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
+using Northwind.UseCases.Common.Exceptions;
 
-namespace Northwind.Application.Customers.Queries.GetCustomerDetail
+namespace Northwind.UseCases.Customers.Queries.GetCustomerDetail
 {
     public class GetCustomerDetailQueryHandler : IRequestHandler<GetCustomerDetailQuery, CustomerDetailVm>
     {

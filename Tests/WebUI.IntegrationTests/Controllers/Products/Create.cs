@@ -1,4 +1,4 @@
-﻿using Northwind.Application.Products.Commands.CreateProduct;
+﻿using Northwind.UseCases.Products.Commands.CreateProduct;
 using Northwind.WebUI.IntegrationTests.Common;
 using System.Threading.Tasks;
 using Xunit;

@@ -1,13 +1,13 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Northwind.Application.Products.Commands.CreateProduct;
-using Northwind.Application.Products.Commands.DeleteProduct;
-using Northwind.Application.Products.Commands.UpdateProduct;
-using Northwind.Application.Products.Queries.GetProductsList;
-using Northwind.Application.Products.Queries.GetProductDetail;
+using Northwind.UseCases.Products.Commands.CreateProduct;
+using Northwind.UseCases.Products.Commands.DeleteProduct;
+using Northwind.UseCases.Products.Commands.UpdateProduct;
+using Northwind.UseCases.Products.Queries.GetProductsList;
+using Northwind.UseCases.Products.Queries.GetProductDetail;
 using Microsoft.AspNetCore.Http;
-using Northwind.Application.Products.Queries.GetProductsFile;
+using Northwind.UseCases.Products.Queries.GetProductsFile;
 
 namespace Northwind.WebUI.Controllers
 {

@@ -1,12 +1,12 @@
 ﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Northwind.Application.Common.Exceptions;
 using Northwind.Domain.Entities;
 using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
+using Northwind.UseCases.Common.Exceptions;
 
-namespace Northwind.Application.Customers.Commands.UpdateCustomer
+namespace Northwind.UseCases.Customers.Commands.UpdateCustomer
 {
     public class UpdateCustomerCommand : IRequest
     {

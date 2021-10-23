@@ -4,7 +4,7 @@ using Infrastructure.Interfaces;
 using MediatR;
 using Northwind.Domain.Entities;
 
-namespace Northwind.Application.Categories.Commands.UpsertCategory
+namespace Northwind.UseCases.Categories.Commands.UpsertCategory
 {
     public class UpsertCategoryCommand : IRequest<int>
     {

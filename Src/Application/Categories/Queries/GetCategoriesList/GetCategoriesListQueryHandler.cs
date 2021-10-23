@@ -6,7 +6,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
 
-namespace Northwind.Application.Categories.Queries.GetCategoriesList
+namespace Northwind.UseCases.Categories.Queries.GetCategoriesList
 {
     public class GetCategoriesListQueryHandler : IRequestHandler<GetCategoriesListQuery, CategoriesListVm>
     {

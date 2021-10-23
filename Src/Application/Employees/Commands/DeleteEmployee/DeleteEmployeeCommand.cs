@@ -1,11 +1,11 @@
 ﻿using MediatR;
-using Northwind.Application.Common.Exceptions;
 using Northwind.Domain.Entities;
 using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
+using Northwind.UseCases.Common.Exceptions;
 
-namespace Northwind.Application.Employees.Commands.DeleteEmployee
+namespace Northwind.UseCases.Employees.Commands.DeleteEmployee
 {
     public class DeleteEmployeeCommand : IRequest
     {

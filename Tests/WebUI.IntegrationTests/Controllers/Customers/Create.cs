@@ -1,6 +1,6 @@
 ﻿using System.Net.Http;
 using System.Threading.Tasks;
-using Northwind.Application.Customers.Commands.CreateCustomer;
+using Northwind.UseCases.Customers.Commands.CreateCustomer;
 using Northwind.WebUI.IntegrationTests.Common;
 using Xunit;
 

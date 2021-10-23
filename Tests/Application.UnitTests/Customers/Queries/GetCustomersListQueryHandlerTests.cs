@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
-using Northwind.Application.Customers.Queries.GetCustomersList;
-using Northwind.Application.UnitTests.Common;
+using Northwind.UseCases.Customers.Queries.GetCustomersList;
+using Northwind.UseCases.UnitTests.Common;
 using Northwind.Persistence;
 using Shouldly;
 using System.Threading;

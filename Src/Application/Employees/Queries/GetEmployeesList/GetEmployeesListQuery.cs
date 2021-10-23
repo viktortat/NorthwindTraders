@@ -7,7 +7,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
 
-namespace Northwind.Application.Employees.Queries.GetEmployeesList
+namespace Northwind.UseCases.Employees.Queries.GetEmployeesList
 {
     public class GetEmployeesListQuery : IRequest<EmployeesListVm>
     {

@@ -1,4 +1,4 @@
-﻿namespace Northwind.Application.Products.Queries.GetProductsFile
+﻿namespace Northwind.UseCases.Products.Queries.GetProductsFile
 {
     public class ProductsFileVm
     {

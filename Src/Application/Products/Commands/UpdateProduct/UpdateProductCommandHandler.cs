@@ -2,10 +2,10 @@
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
 using MediatR;
-using Northwind.Application.Common.Exceptions;
 using Northwind.Domain.Entities;
+using Northwind.UseCases.Common.Exceptions;
 
-namespace Northwind.Application.Products.Commands.UpdateProduct
+namespace Northwind.UseCases.Products.Commands.UpdateProduct
 {
     public class UpdateProductCommandHandler : IRequestHandler<UpdateProductCommand>
     {

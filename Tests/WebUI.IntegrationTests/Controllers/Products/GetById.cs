@@ -1,4 +1,4 @@
-using Northwind.Application.Products.Queries.GetProductDetail;
+using Northwind.UseCases.Products.Queries.GetProductDetail;
 using Northwind.WebUI.IntegrationTests.Common;
 using System.Net;
 using System.Threading.Tasks;

@@ -1,11 +1,11 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Northwind.Application.Customers.Commands.CreateCustomer;
-using Northwind.Application.Customers.Commands.DeleteCustomer;
-using Northwind.Application.Customers.Commands.UpdateCustomer;
-using Northwind.Application.Customers.Queries.GetCustomerDetail;
-using Northwind.Application.Customers.Queries.GetCustomersList;
+using Northwind.UseCases.Customers.Commands.CreateCustomer;
+using Northwind.UseCases.Customers.Commands.DeleteCustomer;
+using Northwind.UseCases.Customers.Commands.UpdateCustomer;
+using Northwind.UseCases.Customers.Queries.GetCustomerDetail;
+using Northwind.UseCases.Customers.Queries.GetCustomersList;
 using System.Threading.Tasks;
 
 namespace Northwind.WebUI.Controllers

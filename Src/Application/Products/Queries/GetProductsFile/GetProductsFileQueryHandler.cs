@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using Infrastructure.Interfaces;
 using Infrastructure.Interfaces.Csv;
 
-namespace Northwind.Application.Products.Queries.GetProductsFile
+namespace Northwind.UseCases.Products.Queries.GetProductsFile
 {
     public class GetProductsFileQueryHandler : IRequestHandler<GetProductsFileQuery, ProductsFileVm>
     {

@@ -1,5 +1,5 @@
 using System.Threading.Tasks;
-using Northwind.Application.Customers.Queries.GetCustomersList;
+using Northwind.UseCases.Customers.Queries.GetCustomersList;
 using Northwind.WebUI.IntegrationTests.Common;
 using Xunit;
 

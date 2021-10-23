@@ -1,10 +1,10 @@
 using System;
 using AutoMapper;
-using Northwind.Application.Common.Mappings;
 using Northwind.Persistence;
+using Northwind.UseCases.Common.Mappings;
 using Xunit;
 
-namespace Northwind.Application.UnitTests.Common
+namespace Northwind.UseCases.UnitTests.Common
 {
     public class QueryTestFixture : IDisposable
     {

@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
 
-namespace Northwind.Application.Common.Behaviours
+namespace Northwind.UseCases.Common.Behaviours
 {
     public class RequestPerformanceBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     {

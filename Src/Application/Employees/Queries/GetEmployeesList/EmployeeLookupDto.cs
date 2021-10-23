@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using Northwind.Application.Common.Mappings;
 using Northwind.Domain.Entities;
+using Northwind.UseCases.Common.Mappings;
 
-namespace Northwind.Application.Employees.Queries.GetEmployeesList
+namespace Northwind.UseCases.Employees.Queries.GetEmployeesList
 {
     public class EmployeeLookupDto : IMapFrom<Employee>
     {

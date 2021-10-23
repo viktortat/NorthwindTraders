@@ -1,11 +1,11 @@
 ﻿using MediatR;
-using Northwind.Application.Common.Exceptions;
 using Northwind.Domain.Entities;
 using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
+using Northwind.UseCases.Common.Exceptions;
 
-namespace Northwind.Application.Categories.Commands.DeleteCategory
+namespace Northwind.UseCases.Categories.Commands.DeleteCategory
 {
     public class DeleteCategoryCommand : IRequest
     {

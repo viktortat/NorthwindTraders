@@ -1,11 +1,11 @@
 ﻿using MediatR;
 using Moq;
-using Northwind.Application.Customers.Commands.CreateCustomer;
 using System.Threading;
-using Northwind.Application.UnitTests.Common;
+using Northwind.UseCases.Customers.Commands.CreateCustomer;
+using Northwind.UseCases.UnitTests.Common;
 using Xunit;
 
-namespace Northwind.Application.UnitTests.Customers.Commands.CreateCustomer
+namespace Northwind.UseCases.UnitTests.Customers.Commands.CreateCustomer
 {
     public class CreateCustomerCommandTests : CommandTestBase
     {

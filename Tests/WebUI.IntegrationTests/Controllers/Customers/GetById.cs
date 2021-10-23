@@ -1,7 +1,7 @@
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Northwind.Application.Customers.Queries.GetCustomerDetail;
+using Northwind.UseCases.Customers.Queries.GetCustomerDetail;
 using Northwind.WebUI.IntegrationTests.Common;
 using Xunit;
 

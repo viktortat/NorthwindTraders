@@ -4,7 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
 
-namespace Northwind.Application.System.Commands.SeedSampleData
+namespace Northwind.UseCases.System.Commands.SeedSampleData
 {
     public class SeedSampleDataCommand : IRequest
     {

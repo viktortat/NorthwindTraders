@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Northwind.Application.Employees.Commands.DeleteEmployee;
-using Northwind.Application.Employees.Commands.UpsertEmployee;
-using Northwind.Application.Employees.Queries.GetEmployeeDetail;
-using Northwind.Application.Employees.Queries.GetEmployeesList;
+using Northwind.UseCases.Employees.Commands.DeleteEmployee;
+using Northwind.UseCases.Employees.Commands.UpsertEmployee;
+using Northwind.UseCases.Employees.Queries.GetEmployeeDetail;
+using Northwind.UseCases.Employees.Queries.GetEmployeesList;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

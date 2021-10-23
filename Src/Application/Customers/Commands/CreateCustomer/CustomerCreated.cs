@@ -3,7 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces.Notifications;
 
-namespace Northwind.Application.Customers.Commands.CreateCustomer
+namespace Northwind.UseCases.Customers.Commands.CreateCustomer
 {
     public class CustomerCreated : INotification
     {

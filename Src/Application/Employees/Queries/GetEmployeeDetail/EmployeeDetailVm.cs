@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using Northwind.Application.Common.Mappings;
 using Northwind.Domain.Entities;
 using System;
 using System.Collections.Generic;
+using Northwind.UseCases.Common.Mappings;
 
-namespace Northwind.Application.Employees.Queries.GetEmployeeDetail
+namespace Northwind.UseCases.Employees.Queries.GetEmployeeDetail
 {
     public class EmployeeDetailVm : IMapFrom<Employee>
     {

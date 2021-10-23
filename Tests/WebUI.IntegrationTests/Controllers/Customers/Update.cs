@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Northwind.Application.Customers.Commands.UpdateCustomer;
+using Northwind.UseCases.Customers.Commands.UpdateCustomer;
 using Northwind.WebUI.IntegrationTests.Common;
 using Xunit;
 

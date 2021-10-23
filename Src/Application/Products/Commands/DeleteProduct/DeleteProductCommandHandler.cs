@@ -3,10 +3,10 @@ using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
 using MediatR;
-using Northwind.Application.Common.Exceptions;
 using Northwind.Domain.Entities;
+using Northwind.UseCases.Common.Exceptions;
 
-namespace Northwind.Application.Products.Commands.DeleteProduct
+namespace Northwind.UseCases.Products.Commands.DeleteProduct
 {
     public class DeleteProductCommandHandler : IRequestHandler<DeleteProductCommand>
     {

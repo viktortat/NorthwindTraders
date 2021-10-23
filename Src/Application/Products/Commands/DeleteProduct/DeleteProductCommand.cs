@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace Northwind.Application.Products.Commands.DeleteProduct
+namespace Northwind.UseCases.Products.Commands.DeleteProduct
 {
     public class DeleteProductCommand : IRequest
     {

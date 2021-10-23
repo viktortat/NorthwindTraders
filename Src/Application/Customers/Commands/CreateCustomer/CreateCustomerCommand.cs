@@ -4,7 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
 
-namespace Northwind.Application.Customers.Commands.CreateCustomer
+namespace Northwind.UseCases.Customers.Commands.CreateCustomer
 {
     public class CreateCustomerCommand : IRequest
     {

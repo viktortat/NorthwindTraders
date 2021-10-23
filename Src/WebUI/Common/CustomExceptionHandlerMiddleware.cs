@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
-using Northwind.Application.Common.Exceptions;
+using Northwind.UseCases.Common.Exceptions;
 using System;
 using System.Net;
 using System.Threading.Tasks;

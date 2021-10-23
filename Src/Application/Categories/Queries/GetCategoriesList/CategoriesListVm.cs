@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Northwind.Application.Categories.Queries.GetCategoriesList
+namespace Northwind.UseCases.Categories.Queries.GetCategoriesList
 {
     public class CategoriesListVm
     {

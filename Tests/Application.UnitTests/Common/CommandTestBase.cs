@@ -1,7 +1,7 @@
 using System;
 using Northwind.Persistence;
 
-namespace Northwind.Application.UnitTests.Common
+namespace Northwind.UseCases.UnitTests.Common
 {
     public class CommandTestBase : IDisposable
     {

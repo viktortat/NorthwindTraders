@@ -1,13 +1,13 @@
-﻿using Northwind.Application.Customers.Queries.GetCustomerDetail;
-using Northwind.Persistence;
+﻿using Northwind.Persistence;
 using Shouldly;
 using System.Threading;
 using System.Threading.Tasks;
-using Northwind.Application.UnitTests.Common;
 using Xunit;
 using AutoMapper;
+using Northwind.UseCases.Customers.Queries.GetCustomerDetail;
+using Northwind.UseCases.UnitTests.Common;
 
-namespace Northwind.Application.UnitTests.Customers.Queries
+namespace Northwind.UseCases.UnitTests.Customers.Queries
 {
     [Collection("QueryCollection")]
     public class GetCustomerDetailQueryHandlerTests

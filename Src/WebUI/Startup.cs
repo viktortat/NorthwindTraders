@@ -10,7 +10,7 @@ using Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Northwind.Infrastructure;
 using Northwind.Persistence;
-using Northwind.Application;
+using Northwind.UseCases;
 using Northwind.WebUI.Common;
 using Northwind.WebUI.Services;
 

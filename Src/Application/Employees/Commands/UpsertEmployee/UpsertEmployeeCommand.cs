@@ -5,7 +5,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
 
-namespace Northwind.Application.Employees.Commands.UpsertEmployee
+namespace Northwind.UseCases.Employees.Commands.UpsertEmployee
 {
     public class UpsertEmployeeCommand : IRequest<int>
     {
