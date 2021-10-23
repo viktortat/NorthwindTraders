@@ -7,7 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 UseCases", "3 UseCases", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{4B785E7E-2F35-4198-BD73-D2B861E5518A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1EC1EEFF-3888-4125-9229-623C564F3E7E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Infrastructure", "4 Infrastructure", "{1EC1EEFF-3888-4125-9229-623C564F3E7E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{833DEA57-A970-418C-831C-2355B8294766}"
 EndProject
@@ -56,6 +56,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Csv", "Infrastructure.Csv\Infrastructure.Csv.csproj", "{F80542D2-71A0-4874-9F18-7725D23A8201}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Notifications", "Infrastructure.Notifications\Infrastructure.Notifications.csproj", "{BD90C45D-780D-4586-9F64-B8F5708FC602}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Controllers", "4 Controllers", "{A8616103-C181-4955-99A4-323DFAF30CF0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -154,6 +156,7 @@ Global
 		{3E5B07DA-09D6-4441-8C46-9F26213073CD} = {2544174C-6E1B-4A4F-B0FA-50437DA3BB3E}
 		{F80542D2-71A0-4874-9F18-7725D23A8201} = {1EC1EEFF-3888-4125-9229-623C564F3E7E}
 		{BD90C45D-780D-4586-9F64-B8F5708FC602} = {1EC1EEFF-3888-4125-9229-623C564F3E7E}
+		{A8616103-C181-4955-99A4-323DFAF30CF0} = {4B785E7E-2F35-4198-BD73-D2B861E5518A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D5D0CA3-C6B8-436C-82B0-39820C8A13FA}
