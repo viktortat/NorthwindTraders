@@ -28,10 +28,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Infrastructure.Interfaces.Database\Infrastructure.Interfaces.Database.csproj" />
-    <ProjectReference Include="..\..\Infrastructure.Interfaces.Users\Infrastructure.Interfaces.Users.csproj" />
     <ProjectReference Include="..\Common\Utils.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Infrastructure.Interfaces.Database\Infrastructure.Interfaces.Database.csproj" />
+    <ProjectReference Include="..\Infrastructure.Interfaces.Users\Infrastructure.Interfaces.Users.csproj" />
   </ItemGroup>
 
 </Project>

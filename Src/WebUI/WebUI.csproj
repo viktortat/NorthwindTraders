@@ -45,13 +45,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Controllers\Controllers.csproj" />
-    <ProjectReference Include="..\..\Infrastructure.Csv\Infrastructure.Csv.csproj" />
-    <ProjectReference Include="..\..\Infrastructure.Notifications\Infrastructure.Notifications.csproj" />
-    <ProjectReference Include="..\Application\UseCases.csproj" />
     <ProjectReference Include="..\Common\Utils.csproj" />
+    <ProjectReference Include="..\Infrastructure.Csv\Infrastructure.Csv.csproj" />
+    <ProjectReference Include="..\Infrastructure.Notifications\Infrastructure.Notifications.csproj" />
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
     <ProjectReference Include="..\Persistence\Persistence.csproj" />
+    <ProjectReference Include="..\UseCases\UseCases.csproj" />
   </ItemGroup>
 
   <!--<Target Name="NSwag" AfterTargets="Build" Condition="'$(Configuration)' == 'Debug'">

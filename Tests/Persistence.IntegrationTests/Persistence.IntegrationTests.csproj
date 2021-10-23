@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Src\Infrastructure.Interfaces.Users\Infrastructure.Interfaces.Users.csproj" />
     <ProjectReference Include="..\..\Src\Persistence\Persistence.csproj" />
   </ItemGroup>
 

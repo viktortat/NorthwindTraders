@@ -12,9 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Infrastructure.Interfaces.Notifications\Infrastructure.Interfaces.Notifications.csproj" />
-    <ProjectReference Include="..\..\Infrastructure.Interfaces.Users\Infrastructure.Interfaces.Users.csproj" />
     <ProjectReference Include="..\Common\Utils.csproj" />
+    <ProjectReference Include="..\Infrastructure.Interfaces.Notifications\Infrastructure.Interfaces.Notifications.csproj" />
+    <ProjectReference Include="..\Infrastructure.Interfaces.Users\Infrastructure.Interfaces.Users.csproj" />
   </ItemGroup>
 
 </Project>
