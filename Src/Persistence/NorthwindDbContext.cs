@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Northwind.Application.Common.Interfaces;
-using Northwind.Common;
+using Northwind.Utils;
 using Northwind.Domain.Entities;
 using Northwind.Domain.Common;
 

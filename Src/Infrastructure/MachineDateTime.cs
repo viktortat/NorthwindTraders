@@ -1,5 +1,5 @@
 ﻿using System;
-using Northwind.Common;
+using Northwind.Utils;
 
 namespace Northwind.Infrastructure
 {

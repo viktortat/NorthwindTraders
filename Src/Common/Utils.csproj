@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <RootNamespace>Northwind.Common</RootNamespace>
-    <AssemblyName>Northwind.Common</AssemblyName>
+    <RootNamespace>Northwind.Utils</RootNamespace>
+    <AssemblyName>Northwind.Utils</AssemblyName>
   </PropertyGroup>
 </Project>

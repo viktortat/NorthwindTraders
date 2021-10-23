@@ -3,7 +3,7 @@ using AutoMapper.QueryableExtensions;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Northwind.Application.Common.Interfaces;
-using Northwind.Common;
+using Northwind.Utils;
 using System.Threading;
 using System.Threading.Tasks;
 
