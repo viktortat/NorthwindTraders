@@ -3,6 +3,7 @@ using Northwind.Persistence;
 using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
+using Infrastructure.Interfaces.Users;
 
 namespace Northwind.UseCases.System.Commands.SeedSampleData
 {

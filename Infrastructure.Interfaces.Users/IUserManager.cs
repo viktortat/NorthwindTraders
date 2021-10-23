@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Northwind.Utils;
 
-namespace Infrastructure.Interfaces
+namespace Infrastructure.Interfaces.Users
 {
     public interface IUserManager
     {

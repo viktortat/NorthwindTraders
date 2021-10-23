@@ -3,6 +3,7 @@ using Northwind.Domain.Entities;
 using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
+using Infrastructure.Interfaces.Users;
 using Northwind.UseCases.Common.Exceptions;
 
 namespace Northwind.UseCases.Employees.Commands.DeleteEmployee

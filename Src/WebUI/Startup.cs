@@ -33,6 +33,8 @@ namespace Northwind.WebUI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddInfrastructure(Configuration, Environment);
+            services.AddInfrastructureCsv();
+            services.AddNotifications();
             services.AddPersistence(Configuration);
             services.AddApplication();
 

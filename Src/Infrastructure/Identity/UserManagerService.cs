@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
+using Infrastructure.Interfaces.Users;
 using Northwind.Utils;
 
 namespace Northwind.Infrastructure.Identity

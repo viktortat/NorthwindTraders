@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Infrastructure.Interfaces;
+using Infrastructure.Interfaces.Users;
 
 namespace Northwind.Persistence
 {
