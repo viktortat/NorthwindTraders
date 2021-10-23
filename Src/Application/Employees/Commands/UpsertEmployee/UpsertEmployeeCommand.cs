@@ -1,9 +1,9 @@
 ﻿using MediatR;
-using Northwind.Application.Common.Interfaces;
 using Northwind.Domain.Entities;
 using System;
 using System.Threading;
 using System.Threading.Tasks;
+using Infrastructure.Interfaces;
 
 namespace Northwind.Application.Employees.Commands.UpsertEmployee
 {

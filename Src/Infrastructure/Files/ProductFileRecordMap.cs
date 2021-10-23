@@ -1,4 +1,5 @@
 ﻿using CsvHelper.Configuration;
+using Infrastructure.Interfaces.Csv;
 using Northwind.Application.Products.Queries.GetProductsFile;
 
 namespace Northwind.Infrastructure.Files

@@ -2,9 +2,9 @@
 using AutoMapper.QueryableExtensions;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Northwind.Application.Common.Interfaces;
 using System.Threading;
 using System.Threading.Tasks;
+using Infrastructure.Interfaces;
 
 namespace Northwind.Application.Categories.Queries.GetCategoriesList
 {

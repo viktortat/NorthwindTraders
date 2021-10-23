@@ -2,10 +2,10 @@
 using AutoMapper.QueryableExtensions;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Northwind.Application.Common.Interfaces;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Infrastructure.Interfaces;
 
 namespace Northwind.Application.Employees.Queries.GetEmployeeDetail
 {

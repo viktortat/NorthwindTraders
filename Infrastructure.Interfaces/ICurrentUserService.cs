@@ -1,4 +1,4 @@
-﻿namespace Northwind.Application.Common.Interfaces
+﻿namespace Infrastructure.Interfaces
 {
     public interface ICurrentUserService
     {

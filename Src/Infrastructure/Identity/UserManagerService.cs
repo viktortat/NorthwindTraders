@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Northwind.Application.Common.Interfaces;
 using Northwind.Application.Common.Models;
 using System.Linq;
 using System.Threading.Tasks;
+using Infrastructure.Interfaces;
 
 namespace Northwind.Infrastructure.Identity
 {

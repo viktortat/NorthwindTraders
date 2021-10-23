@@ -2,10 +2,11 @@
 using AutoMapper.QueryableExtensions;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Northwind.Application.Common.Interfaces;
 using Northwind.Utils;
 using System.Threading;
 using System.Threading.Tasks;
+using Infrastructure.Interfaces;
+using Infrastructure.Interfaces.Csv;
 
 namespace Northwind.Application.Products.Queries.GetProductsFile
 {

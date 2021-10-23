@@ -1,8 +1,8 @@
 ﻿using MediatR;
-using Northwind.Application.Common.Interfaces;
 using Northwind.Persistence;
 using System.Threading;
 using System.Threading.Tasks;
+using Infrastructure.Interfaces;
 
 namespace Northwind.Application.System.Commands.SeedSampleData
 {

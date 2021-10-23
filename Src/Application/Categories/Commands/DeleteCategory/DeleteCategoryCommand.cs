@@ -1,9 +1,9 @@
 ﻿using MediatR;
 using Northwind.Application.Common.Exceptions;
-using Northwind.Application.Common.Interfaces;
 using Northwind.Domain.Entities;
 using System.Threading;
 using System.Threading.Tasks;
+using Infrastructure.Interfaces;
 
 namespace Northwind.Application.Categories.Commands.DeleteCategory
 {

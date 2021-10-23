@@ -1,8 +1,8 @@
 using System;
 using System.Threading.Tasks;
+using Infrastructure.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Moq;
-using Northwind.Application.Common.Interfaces;
 using Northwind.Utils;
 using Northwind.Domain.Entities;
 using Northwind.Persistence;

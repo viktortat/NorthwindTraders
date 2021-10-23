@@ -1,7 +1,7 @@
-﻿using Northwind.Application.Common.Models;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Northwind.Application.Common.Models;
 
-namespace Northwind.Application.Common.Interfaces
+namespace Infrastructure.Interfaces
 {
     public interface IUserManager
     {

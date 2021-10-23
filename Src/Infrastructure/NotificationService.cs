@@ -1,6 +1,5 @@
-﻿using Northwind.Application.Common.Interfaces;
-using Northwind.Application.Notifications.Models;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using Infrastructure.Interfaces.Notifications;
 
 namespace Northwind.Infrastructure
 {

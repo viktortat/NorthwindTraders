@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
+using Infrastructure.Interfaces;
 using Microsoft.AspNetCore.Http;
-using Northwind.Application.Common.Interfaces;
 
 namespace Northwind.WebUI.Services
 {

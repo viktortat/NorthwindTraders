@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
+using Infrastructure.Interfaces;
 using MediatR;
 using Northwind.Application.Common.Exceptions;
-using Northwind.Application.Common.Interfaces;
 using Northwind.Domain.Entities;
 
 namespace Northwind.Application.Products.Commands.UpdateProduct

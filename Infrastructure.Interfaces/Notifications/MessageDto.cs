@@ -1,4 +1,4 @@
-﻿namespace Northwind.Application.Notifications.Models
+﻿namespace Infrastructure.Interfaces.Notifications
 {
     public class MessageDto
     {
