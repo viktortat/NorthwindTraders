@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{4B785E7E-2F3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Infrastructure", "4 Infrastructure", "{1EC1EEFF-3888-4125-9229-623C564F3E7E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{833DEA57-A970-418C-831C-2355B8294766}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Host", "5 Host", "{833DEA57-A970-418C-831C-2355B8294766}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9FEDAEFB-297C-4201-8FAA-F502F94CAFED}"
 EndProject
@@ -21,6 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseCases", "Src\Application
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{36DA64CD-41D5-48FD-8AFE-EBBF8EFD57ED}"
 	ProjectSection(SolutionItems) = preProject
+		Docs\CleanArchitecture.jpg = Docs\CleanArchitecture.jpg
 		README.md = README.md
 		Docs\Slides.pdf = Docs\Slides.pdf
 	EndProjectSection
@@ -45,19 +46,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Entities", "1 Entities", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 Infrastructure.Interfaces", "2 Infrastructure.Interfaces", "{2544174C-6E1B-4A4F-B0FA-50437DA3BB3E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Interfaces.Csv", "Infrastructure.Interfaces.Csv\Infrastructure.Interfaces.Csv.csproj", "{F7FE9CF5-0613-4AA9-B6D4-05D7DD6B5448}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Interfaces.Csv", "Infrastructure.Interfaces.Csv\Infrastructure.Interfaces.Csv.csproj", "{F7FE9CF5-0613-4AA9-B6D4-05D7DD6B5448}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Interfaces.Notifications", "Infrastructure.Interfaces.Notifications\Infrastructure.Interfaces.Notifications.csproj", "{1688EF68-04C6-41E2-ACAB-4B7F442962D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Interfaces.Notifications", "Infrastructure.Interfaces.Notifications\Infrastructure.Interfaces.Notifications.csproj", "{1688EF68-04C6-41E2-ACAB-4B7F442962D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Interfaces.Database", "Infrastructure.Interfaces.Database\Infrastructure.Interfaces.Database.csproj", "{82CB6CA3-1658-4208-9F9A-E3CFB54D496E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Interfaces.Database", "Infrastructure.Interfaces.Database\Infrastructure.Interfaces.Database.csproj", "{82CB6CA3-1658-4208-9F9A-E3CFB54D496E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Interfaces.Users", "Infrastructure.Interfaces.Users\Infrastructure.Interfaces.Users.csproj", "{3E5B07DA-09D6-4441-8C46-9F26213073CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Interfaces.Users", "Infrastructure.Interfaces.Users\Infrastructure.Interfaces.Users.csproj", "{3E5B07DA-09D6-4441-8C46-9F26213073CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Csv", "Infrastructure.Csv\Infrastructure.Csv.csproj", "{F80542D2-71A0-4874-9F18-7725D23A8201}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Csv", "Infrastructure.Csv\Infrastructure.Csv.csproj", "{F80542D2-71A0-4874-9F18-7725D23A8201}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Notifications", "Infrastructure.Notifications\Infrastructure.Notifications.csproj", "{BD90C45D-780D-4586-9F64-B8F5708FC602}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Notifications", "Infrastructure.Notifications\Infrastructure.Notifications.csproj", "{BD90C45D-780D-4586-9F64-B8F5708FC602}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 Controllers", "4 Controllers", "{A8616103-C181-4955-99A4-323DFAF30CF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Controllers", "Controllers\Controllers.csproj", "{BA496856-1282-4680-BD00-C1C3E9AF59A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +132,10 @@ Global
 		{BD90C45D-780D-4586-9F64-B8F5708FC602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD90C45D-780D-4586-9F64-B8F5708FC602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD90C45D-780D-4586-9F64-B8F5708FC602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA496856-1282-4680-BD00-C1C3E9AF59A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA496856-1282-4680-BD00-C1C3E9AF59A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA496856-1282-4680-BD00-C1C3E9AF59A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA496856-1282-4680-BD00-C1C3E9AF59A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -157,6 +164,7 @@ Global
 		{F80542D2-71A0-4874-9F18-7725D23A8201} = {1EC1EEFF-3888-4125-9229-623C564F3E7E}
 		{BD90C45D-780D-4586-9F64-B8F5708FC602} = {1EC1EEFF-3888-4125-9229-623C564F3E7E}
 		{A8616103-C181-4955-99A4-323DFAF30CF0} = {4B785E7E-2F35-4198-BD73-D2B861E5518A}
+		{BA496856-1282-4680-BD00-C1C3E9AF59A1} = {A8616103-C181-4955-99A4-323DFAF30CF0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0D5D0CA3-C6B8-436C-82B0-39820C8A13FA}
